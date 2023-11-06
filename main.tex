@@ -1,0 +1,234 @@
+\documentclass{article}
+
+\usepackage{amsmath, amsthm, amssymb, amsfonts}
+\usepackage{thmtools}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{framed}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox}
+
+\colorlet{LightGray}{White!90!Periwinkle}
+\colorlet{LightOrange}{Orange!15}
+\colorlet{LightGreen}{Green!15}
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+
+\declaretheoremstyle[name=Theorem,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{theorem}
+\tcolorboxenvironment{theorem}{colback=LightGray}
+
+\declaretheoremstyle[name=Definition,]{thmsty}
+\declaretheorem[style=thmsty,numberwithin=section]{definition}
+\tcolorboxenvironment{definition}{colback=LightGray}
+
+\declaretheoremstyle[name=Equation,]{prosty}
+\declaretheorem[style=prosty,numberlike=theorem]{proposition}
+\tcolorboxenvironment{proposition}{colback=LightGreen}
+
+\declaretheoremstyle[name=Principle,]{prcpsty}
+\declaretheorem[style=prcpsty,numberlike=theorem]{principle}
+\tcolorboxenvironment{principle}{colback=LightGray}
+
+\setstretch{1.2}
+\geometry{
+    textheight=9in,
+    textwidth=5.5in,
+    top=1in,
+    headheight=13pt,
+    headsep=25pt,
+    footskip=30pt
+}
+
+% ------------------------------------------------------------------------------
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% Cover Page and ToC
+% ------------------------------------------------------------------------------
+
+\title{ \normalsize \textsc{}
+		\\ [2.0cm]
+		\HRule{1.5pt} \\
+		\Large \textbf{\uppercase{Elementary Orifice Flow Measurement}}
+		\HRule{2.0pt} \\ [0.6cm] \large{a broad generalization of ISO 5167... \\...with applications to petroleum refining} \vspace*{15\baselineskip}
+		}
+\date{}
+\author{	Bennett \\
+		Illinois Refining Division \\
+	    Winter 2023}
+
+\maketitle
+\newpage
+
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------------------------
+\subsection{Table of Symbols}
+
+Note:  Base conditions are standard conditions. $q_{v, base} = q_{v, standard}$. Similarly, flowing conditions are actual conditions. $\rho_{flowing} = \rho_{actual}$
+\newpage
+\section{Correction of Orifice Flow Meters}
+\subsection{Generalized Equations}
+The orifice calculations stored on orifice datasheets are a record of how flow through an orifice is expected to behave under design conditions. However, accurate flow measurement is often required outside of design conditions. A meter correction factor, $MCF$, can be used to correct a raw (indicated) flow for operating conditions. As orifice meters are sized at maximum flow, a working range of approximately 4:1 flow turndown from calibration conditions is generally acceptable.
+
+\begin{definition}The Meter Correction Factor, $MCF$, is the ratio of the corrected flow at standard conditions to the raw flow at standard conditions. 
+\begin{equation}
+    MCF = \frac{q_{v, corr, base}}{q_{v, base}}
+\end{equation}
+\end{definition}
+
+
+
+The primary terms that change with operating conditions in the orifice equation are flowing and base fluid density ($\rho_1$ and $\rho_{base}$) and orifice diameter. Orifice diameter changes are due to thermal expansion of the metal.
+
+\begin{proposition}Generalized Equation for Orifice Meter Correction
+\begin{equation}
+    q_{v, corr, std} = q_{v, base} * MCF = \frac{q_{v, base}}{F_{\rho} * F_{E} * ...} 
+\end{equation}
+    \begin{description}
+        \item $F_{\rho}$ is a factor to correct for the difference in fluid density from calibration conditions to operating conditions
+        \item $F_{E}$ is a factor to correct for the thermal expansion of the pipe and orifice plate from calibration conditions to operating conditions
+        \item This is not an exhaustive list of correction factors applicable to orifice flow meters.
+        \item The inverse of the product of the correction factors is equal to the MCF.
+    \end{description}
+    \begin{equation}
+        MCF = \frac{1}{F_{\rho} * F_{E} * ...}
+    \end{equation}
+\end{proposition}
+
+\subsection{Liquid Density Correction}
+
+The liquid density correction factor corrects the raw flow rate for two terms, the difference in specific gravity at calibration flowing and actual flowing conditions, and the difference in base specific gravity at calibration and operating compositions. This factor accounts for any changes in density due to composition, as well as differences in flowing gravity due to thermal expansion of the liquid.
+
+\begin{proposition} Liquid density correction factor
+    
+\begin{equation}
+    F_{\rho} = \sqrt{\frac{\rho_{flowing}}{\rho_{flowing, cal}}}\frac{\rho_{base, cal}}{\rho_{base}}
+\end{equation}
+%Note: $\frac{\rho_1}{\rho_2} = \frac{SG_1}{SG_2}$.
+\end{proposition}
+
+Flowing gravity, $\rho_{flowing}$, is generally calculated using the method outlined in API XXX, summarized below. Flowing gravity can also be determined graphically, using a graph such as appears in Appendix A-8 of Technical Paper 410 (Crane Manual) [citeme].
+
+
+\subsection{Gas Density Correction}
+
+Gas density can be corrected by the Ideal Gas Law.
+
+\begin{proposition}Vapor density correction factor 
+
+\begin{equation}
+    F_{\rho} = \sqrt{\frac{T_{cal}}{T_{flowing}}}\sqrt{\frac{P_{flowing}}{P_{cal}}}\sqrt{\frac{SG_{cal}}{SG_{flowing}}}
+\end{equation}
+Note: Temperature and pressure ratios must be on an absolute scale.
+\end{proposition}
+
+
+
+\subsection{Orifice Thermal Expansion Correction}
+Orifice diameter measurements are made at 70\degree F per ASME XXXX. For small changes in temperature, and when orifice design calculations have accounted appropriately for thermal expansion of the pipe and metal, no thermal expansion factor needs to be applied.
+
+
+
+
+
+
+
+
+\newpage
+\section{A return to first principles and literature}
+\subsection{The orifice flow equation}
+\begin{principle}
+Orifice Flow Equation, mass units
+    \begin{equation}
+        q_m =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{2 g_c \Delta p * \rho_1}
+    \end{equation}
+\end{principle}
+
+    \begin{description}
+        \item $q_m$ is mass flow across the orifice
+        \item $C_d$ is the discharge coefficient, a function of meter geometry and Reynold's number
+        \item $d$ is the internal orifice diameter under operating conditions
+        \item $\beta$ is the inner diameter ratio of the orifice to the pipe, $\beta = \frac{d}{D_{pipe}}$
+        \item $\Delta P$ is the difference between upstream pressure $p_1$ and downstream pressure $p_2$
+        \item $\epsilon$ is the expansibility factor
+        \begin{itemize}
+            \item 1 for non-compressible liquids
+            \item a function of $\beta$, $\Delta p$, and the isentropic exponent $\kappa$ for gasses
+            \begin{description}
+                \item[Note:]$\kappa = \frac{C_p}{C_v}$ for ideal gasses
+            \end{description}
+        \end{itemize} 
+        \item $\rho_1$ is upstream flowing fluid density
+    \end{description}
+
+Next, we will put this equation in terms of volumetric flow, which is more applicable to refining, the $q_m$ must be divided by the flowing fluid gravity $\rho_1$. We also multiply by $\frac{\rho_{1}}{\rho_{base}}$ to get $q_v$ at standard conditions.
+
+\begin{equation}
+    q_{v,std} = \frac{q_m}{\rho_1}
+\end{equation}
+
+Together, this yields the orifice flow equation in volume terms.
+\begin{proposition}
+Orifice Flow Equation, volume flow at standard conditions
+    \begin{equation}
+        q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{1}}}*\frac{\rho_{1}}{\rho_{base}}
+    \end{equation}
+\end{proposition}
+
+\subsection{Discharge and Expansiblity Coefficients}
+\subsubsection{Discharge coefficient}
+The discharge coefficient, $C_d$, is given by the empirical Reader-Harris/Gallager (1998) equation. It is a function of Reynold's number calculated with respect to pipe inner diameter, D, and the orifice and pressure tap geometry. Within 4:1 turndown, the coefficient does not vary significantly, so can be assumed to be constant to simplify flow correction.
+See figure 1 below.
+
+\begin{figure}[htbp]
+    \center
+    \includegraphics[scale=1]{img/figure1.png}
+    \caption{Sydney, NSW}
+\end{figure}
+
+\begin{proposition}
+    This is a proposition.
+\end{proposition}
+
+\begin{principle}
+    This is a principle.
+\end{principle}
+
+% Maybe I need to add one more part: Examples.
+% Set style and colour later.
+
+\section{Useful Geometry}
+\subsection{Pressure Taps}
+\subsection{Thermal Expansion of Orifice Plates}
+\begin{figure}[htbp]
+    \center
+    \includegraphics[scale=0.06]{img/photo.jpg}
+    \caption{Sydney, NSW}
+\end{figure}
+
+\section{Citations}
+
+This is a citation\cite{Eg}.
+
+\newpage
+
+% ------------------------------------------------------------------------------
+% Reference and Cited Works
+% ------------------------------------------------------------------------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{References.bib}
+
+% ------------------------------------------------------------------------------
+
+\end{document}
