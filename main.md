@@ -12,12 +12,12 @@ Generally, the subject matter of this document will flow in reverse, with practi
 ## Reference Conditions
 Variable subscripts denote their reference conditions. 
 - *b* = base, or standard conditions
-	- These are the laboratory conditions used for testing process samples. 
+	- These are the conditions used for reporting sample properties and flow rates. 
 	- Typically $T_{b}=60 \degree F$.
-- *f* = flowing, or stream/actual process conditions. 
+- *f* = flowing, or actual process conditions. 
 	- These are the conditions actually in the pipe. 
-- *c* = calibration conditions. 
-	- These are the conditions 
+- *c* = calibration conditions, a special case. 
+	- These are the conditions, flowing or base, that appear on an orifice data sheet, that reference the condit
 
 ## Table of Symbols
 $q_m$ is mass flow across the orifice
@@ -227,6 +227,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMTA2NTg4MzE3Nyw1NTM2MjcxMDld
-fQ==
+cnXG4iLCJoaXN0b3J5IjpbLTM5NTg4OTU2LDU1MzYyNzEwOV19
+
 -->
