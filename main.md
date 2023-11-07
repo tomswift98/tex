@@ -137,8 +137,9 @@ $$\alpha = \frac{K_0}{\rho^2} + \frac{K_1}{\rho} + K_2$$
 
 $C_{PL}$ is a pressure correction factor, which is typically very
 near 1.
-$$C_{PL} = \frac{1}{1-\left(10^{-5}*\exp{\left(-1.9947 + 0.00013427*T_{f}+\frac{793920+2326*T_{f}}{\rho^2}\right)}*P_f\right)}$$
+$$C_{PL} = \frac{1}{1-\left(10^{-5}*F_p\right)}$$
 
+$$F_p = \exp{\left(-1.9947 + 0.00013427*T_{f}+\frac{793920+2326*T_{f}}{\rho^2})}*P_f\right)$$
 #### LPG
 
 Equation 2\... lol
@@ -210,6 +211,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTEzNzI5NDIxOCwtODIxMzY0ODIy
-LDE0NTMwMDkwLDU1MzYyNzEwOV19
+cnXG4iLCJoaXN0b3J5IjpbMTAzNTM1NDg1MiwtMTM3Mjk0MjE4
+LC04MjEzNjQ4MjIsMTQ1MzAwOTAsNTUzNjI3MTA5XX0=
 -->
