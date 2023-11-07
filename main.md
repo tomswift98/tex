@@ -39,13 +39,11 @@ $\epsilon$ is the expansibility factor
 
 $\rho_1$ is upstream flowing fluid density
 
-$T_b$ is base temperature, usually 60 \degree F, or more 60.0068749 $\degree$F
-for API 2540
-:::
+$T_b$ is base temperature, usually 60$\degree$F, (60.0068749$\degree$Ffor API 2540)
 
-# Correction of Orifice Flow Meters
+## Correction of Orifice Flow Meters
 
-## Generalized Equations
+### Generalized Equations
 
 The orifice calculations stored on orifice datasheets are a record of
 how flow through an orifice is expected to behave under design
@@ -87,7 +85,7 @@ MCF.
 $$MCF = \frac{1}{F_{\rho} * F_{E} * ...}$$
 :::
 
-## Liquid Density Correction
+### Liquid Density Correction
 
 The liquid density correction factor corrects the raw flow rate for two
 terms, the difference in specific gravity at calibration flowing and
@@ -107,7 +105,7 @@ method outlined in API 2540, summarized below. Flowing gravity can also
 be determined graphically, using a graph such as appears in Appendix A-8
 of Technical Paper 410 (Crane Manual) \[citeme\].
 
-### API 2540 Method for Hydrocarbon 
+#### API 2540 Method for Hydrocarbon 
 
 API 2540 is used to correct hydrocarbon densities from flowing
 conditions to base conditions. The method classifies hydrocarbon liquids
@@ -141,11 +139,11 @@ $C_{PL}$ is a pressure correction factor, which is typically very
 near 1.
 $$C_{PL} = \frac{1}{1-\left(10^{-5}*\exp{\left(-1.9947 + 0.00013427*T_{f}+\frac{793920+2326*T_{f}}{\rho^2}\right)}*P_f\right)}$$
 
-### LPG
+#### LPG
 
 Equation 2\... lol
 
-## Gas Density Correction
+### Gas Density Correction
 
 Gas density can be corrected with a similar method to liquid density, as
 gas density is proportional .
@@ -157,16 +155,16 @@ $$F_{\rho} = \sqrt{\frac{T_{cal}}{T_{f}}}\sqrt{\frac{P_{f}}{P_{cal}}}\sqrt{\frac
 Note: Temperature and pressure ratios must be on an absolute scale.
 :::
 
-## Orifice Thermal Expansion Correction
+### Orifice Thermal Expansion Correction
 
 Orifice diameter measurements are made at 70F per ASME XXXX. For small
 changes in temperature, and when orifice design calculations have
 accounted appropriately for thermal expansion of the pipe and metal, no
 thermal expansion factor needs to be applied.
 
-# A return to first principles and literature
+## A return to first principles and literature
 
-## The orifice flow equation
+### The orifice flow equation
 
 The general orifice flow equation, given in many texts and readily
 available on Wikipedia, is outlined below.
@@ -190,9 +188,9 @@ Orifice Flow Equation, volume flow at standard conditions
 $$q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{1}}}*\frac{\rho_{1}}{\rho_{base}}$$
 :::
 
-## Discharge and Expansiblity Coefficients
+### Discharge and Expansiblity Coefficients
 
-### Discharge coefficient
+#### Discharge coefficient
 
 The discharge coefficient, $C_d$, is given by the empirical
 Reader-Harris/Gallager (1998) equation. It is a function of Reynold's
@@ -227,6 +225,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMzU5Mjk5MzY1LDU1MzYyNzEwOV19
+cnXG4iLCJoaXN0b3J5IjpbNzM5NjY3MDYxLDU1MzYyNzEwOV19
 
 -->
