@@ -175,7 +175,7 @@ $$q_m =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{2 g_c \Delta
 
 Next, we will put this equation in terms of volumetric flow, which is
 more applicable to refining. The $q_m$ must be divided by the flowing
-fluid gravity $\rho_1$ to . We also multiply by $\frac{\rho_{f}}{\rho_{base}}$ to get $q_v$ at standard conditions.
+fluid gravity $\rho_1$. We also multiply by $\frac{\rho_{f}}{\rho_{base}}$ to get $q_v$ at standard conditions.
 
 Together, this yields the orifice flow equation in volume terms.
 $$q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{1}}}*\frac{\rho_{1}}{\rho_{base}}$$
@@ -213,6 +213,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMTA4MzIwMzg3Nyw1NTM2MjcxMDld
-fQ==
+cnXG4iLCJoaXN0b3J5IjpbMTQ1MzAwOTAsNTUzNjI3MTA5XX0=
+
 -->
