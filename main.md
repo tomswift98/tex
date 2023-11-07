@@ -1,7 +1,6 @@
+<h1 style="text-align: center;">ELEMENTARY ORIFICE FLOW MEASUREMENT</h3>
 
-# **ELEMENTARY ORIFICE FLOW MEASUREMENT**
-  \
-  a broad generalization of ISO 5167, API 2540\...\
+  a broad generalization of ISO 5167, API 2540\...
   \...with applications to petroleum refining
 \
 *L. Bennett*
@@ -15,7 +14,7 @@ Generally, the subject matter of this document will flow in reverse, with practi
 
 Base conditions are standard conditions. Typically $T_{base}=60 \degree F$.
 	$$q_{v, base} = q_{v, standard}$$
-Similarly, flowing conditions are actual conditions, or stream. 
+Similarly, flowing conditions are actual conditions, or stream conditions. 
 	$$\rho_{flowing} = \rho_{actual}$$
 
 ## Table of Symbols
@@ -226,6 +225,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTc2MjQ5OTIxNyw1NTM2MjcxMDld
-fQ==
+cnXG4iLCJoaXN0b3J5IjpbLTEwMzI5NjQyMDIsNTUzNjI3MTA5
+XX0=
 -->
