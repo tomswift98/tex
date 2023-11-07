@@ -115,14 +115,13 @@ oils. Units for the API correlation are: Fahrenheit (F) for temperature,
 pounds per square inch (psia) for pressure, and kilograms per cubic
 meter (kg/m\*\*3) for density. Hydrocarbon densities are compared to
 water density at 60F, which has an accepted density of 999.016 kg/m3.
-Temperature and base density should be on an IPTS-68 basis, although
+Temperature should be on an IPTS-68 basis, although
 this has a very small effect.
 $$\rho_{flowing} = \rho_{base} * C_{TL} * C_{PL}$$
 
-$C_{TL}$ is a temperature correction factor. Note that $T_b$ =
-60.0068749 F, and $\delta$ = 0.01374979547.
+$C_{TL}$ is a temperature correction factor. Note that $T_b$ =60.0068749$\degree$F and $\delta$ = 0.01374979547$\degree$F.
 $$C_{TL} = \exp{\{-\alpha\Delta t [1+0.8\alpha((T_{f}-T_{b}) + \delta)]\}}$$
-
+where,
 $$\alpha = \frac{K_0}{\rho^2} + \frac{K_1}{\rho} + K_2$$
 
 |                  	| Density Range                             	| $K_0$     	| $K_1$   	| $K_2$       	|
@@ -212,6 +211,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTEwMTA2NDcyNDUsLTEzNzI5NDIx
+cnXG4iLCJoaXN0b3J5IjpbLTEyOTYwMTk1NzQsLTEzNzI5NDIx
 OCwtODIxMzY0ODIyLDE0NTMwMDkwLDU1MzYyNzEwOV19
 -->
