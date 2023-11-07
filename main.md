@@ -11,9 +11,8 @@ Generally, the subject matter of this document will flow in reverse, with practi
 
 ## Reference Conditions
 Variable subscripts denote their reference conditions. 
-
-Base conditions are standard conditions. Typically $T_{b}=60 \degree F$.
-	$$q_{v, b} = q_{v, s}$$
+*b* = base, or standard conditions. These are the laboratory conditions used fTypically $T_{b}=60 \degree F$.
+*f* = flowing, or stream/actual process conditions. These are the conditions actually in the pipe. 
 Similarly, flowing conditions are actual conditions, or stream conditions. 
 	$$\rho_{f} = \rho_{a}$$
 
@@ -225,6 +224,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTE3MjI5NjIyMzMsNTUzNjI3MTA5
-XX0=
+cnXG4iLCJoaXN0b3J5IjpbLTk4MzU4NTc4Miw1NTM2MjcxMDld
+fQ==
 -->
