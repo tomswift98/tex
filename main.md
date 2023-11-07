@@ -11,14 +11,14 @@ Winter 2023
 
 Generally, the subject matter of this document will flow in reverse, with practical and usable results toward the beginning, and theory, arguments and conditions toward the end.
 
-## Table of Symbols
+## Reference Conditions
 
-Note: Base conditions are standard conditions. Typically $T_{base}=60 \degree F$.
+Base conditions are standard conditions. Typically $T_{base}=60 \degree F$.
 	$$q_{v, base} = q_{v, standard}$$
-Similarly, flowing conditions are actual conditions. 
+Similarly, flowing conditions are actual conditions, or stream. 
 	$$\rho_{flowing} = \rho_{actual}$$
 
-
+## Table of Symbols
 $q_m$ is mass flow across the orifice
 
 $C_d$ is the discharge coefficient, a function of meter geometry and Reynold's number
@@ -34,8 +34,7 @@ $\epsilon$ is the expansibility factor
 
 -   1 for non-compressible liquids
 
--   a function of $\beta$, $\Delta p$, and the isentropic exponent
-    $\kappa$ for gasses.   $\kappa = \frac{C_p}{C_v}$ for ideal gasses
+-   a function of $\beta$, $\Delta p$, and the isentropic exponent $\kappa$ for gasses. $\kappa = \frac{C_p}{C_v}$ for ideal gasses
 
 $\rho_1$ is upstream flowing fluid density
 
@@ -227,6 +226,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTE1NDE1MTMyNjcsNTUzNjI3MTA5
-XX0=
+cnXG4iLCJoaXN0b3J5IjpbLTc2MjQ5OTIxNyw1NTM2MjcxMDld
+fQ==
 -->
