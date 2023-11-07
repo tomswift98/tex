@@ -9,21 +9,17 @@ Winter 2023
 
 ## Forward
 
-Generally, the subject matter of this document will flow in reverse,
-with practical and usable results toward the beginning, and theory,
-arguments and conditions toward the end.
+Generally, the subject matter of this document will flow in reverse, with practical and usable results toward the beginning, and theory, arguments and conditions toward the end.
 
 ## Table of Symbols
 
 Note: Base conditions are standard conditions.
-$q_{v, base} = q_{v, standard}$. Similarly, flowing conditions are
-actual conditions. $\rho_{flowing} = \rho_{actual}$
+$q_{v, base} = q_{v, standard}$. Similarly, flowing conditions are actual conditions. $\rho_{flowing} = \rho_{actual}$
 
 ::: description
 $q_m$ is mass flow across the orifice
 
-$C_d$ is the discharge coefficient, a function of meter geometry and
-Reynold's number
+$C_d$ is the discharge coefficient, a function of meter geometry and Reynold's number
 
 $d$ is the internal orifice diameter under operating conditions
 
@@ -234,5 +230,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbNTUzNjI3MTA5XX0=
+cnXG4iLCJoaXN0b3J5IjpbLTE5MTUzNTkyNTEsNTUzNjI3MTA5
+XX0=
 -->
