@@ -13,8 +13,10 @@ Generally, the subject matter of this document will flow in reverse, with practi
 
 ## Table of Symbols
 
-Note: Base conditions are standard conditions.
-$q_{v, base} = q_{v, standard}$. Similarly, flowing conditions are actual conditions. $\rho_{flowing} = \rho_{actual}$
+Note: Base conditions are standard conditions. 
+	$$q_{v, base} = q_{v, standard}$$
+Similarly, flowing conditions are actual conditions. 
+	$$\rho_{flowing} = \rho_{actual}$$
 
 ::: description
 $q_m$ is mass flow across the orifice
@@ -230,6 +232,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTE5MTUzNTkyNTEsNTUzNjI3MTA5
-XX0=
+cnXG4iLCJoaXN0b3J5IjpbMTExMDkyMjAwMyw1NTM2MjcxMDld
+fQ==
 -->
