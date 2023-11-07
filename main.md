@@ -1,10 +1,9 @@
-<h1 style="text-align: center;">ELEMENTARY ORIFICE FLOW MEASUREMENT</h3>
+# ELEMENTARY ORIFICE FLOW MEASUREMENT #
 
-  a broad generalization of ISO 5167, API 2540\...
-  \...with applications to petroleum refining
-\
-*L. Bennett*
-Winter 2023
+OR
+
+  *a broad generalization of ISO 5167\...
+  \...with applications to petroleum refining*
 
 ## Forward
 
@@ -37,7 +36,7 @@ $\epsilon$ is the expansibility factor
 
 $\rho_1$ is upstream flowing fluid density
 
-$T_b$ is base temperature, usually 60F, or more specifically 60.0068749F
+$T_b$ is base temperature, usually 60F, or more specifically 60.0068749 /degree F
 for API 2540
 :::
 
@@ -225,6 +224,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTEwMzI5NjQyMDIsNTUzNjI3MTA5
-XX0=
+cnXG4iLCJoaXN0b3J5IjpbMTk5NDQwMDg4Nyw1NTM2MjcxMDld
+fQ==
 -->
