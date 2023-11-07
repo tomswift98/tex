@@ -2,8 +2,8 @@
 
 OR
 
-  *a broad generalization of ISO 5167\...
-  \...with applications to petroleum refining*
+  *a broad generalization of ISO 5167... \
+  ...with applications to petroleum refining*
 
 ## Forward
 
@@ -210,6 +210,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTgyMTM2NDgyMiwxNDUzMDA5MCw1
-NTM2MjcxMDldfQ==
+cnXG4iLCJoaXN0b3J5IjpbLTEzNzI5NDIxOCwtODIxMzY0ODIy
+LDE0NTMwMDkwLDU1MzYyNzEwOV19
 -->
