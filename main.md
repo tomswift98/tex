@@ -121,7 +121,7 @@ $$\rho_{flowing} = \rho_{base} * C_{TL} * C_{PL}$$
 
 $C_{TL}$ is a temperature correction factor. Note that $T_b$ =
 60.0068749 F, and $\delta$ = 0.01374979547.
-$$C_{TL} = \exp{\{-\alpha\Delta t [1+0.8\alpha((T_{f}-T_{b}) + 0.01374979547)]\}}$$
+$$C_{TL} = \exp{\{-\alpha\Delta t [1+0.8\alpha((T_{f}-T_{b}) + \delta)]\}}$$
 
 $$\alpha = \frac{K_0}{\rho^2} + \frac{K_1}{\rho} + K_2$$
 
@@ -137,9 +137,9 @@ $$\alpha = \frac{K_0}{\rho^2} + \frac{K_1}{\rho} + K_2$$
 
 $C_{PL}$ is a pressure correction factor, which is typically very
 near 1.
-$$C_{PL} = \frac{1}{1-\left(10^{-5}*F_p\right)}$$
+$$C_{PL} = \frac{1}{1-\left(10^{-5}*F_s\right)}$$
 
-$$F_p = \exp{\left(-1.9947 + 0.00013427*T_{f}+\frac{793920+2326*T_{f}}{\rho^2}\right)}*P_f$$
+$$F_s = \exp{\left(-1.9947 + 0.00013427*T_{f}+\frac{793920+2326*T_{f}}{\rho^2}\right)}*P_f$$
 
 #### LPG
 
@@ -212,6 +212,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTM4MzYxMzM3MywtMTM3Mjk0MjE4
-LC04MjEzNjQ4MjIsMTQ1MzAwOTAsNTUzNjI3MTA5XX0=
+cnXG4iLCJoaXN0b3J5IjpbLTEwMTA2NDcyNDUsLTEzNzI5NDIx
+OCwtODIxMzY0ODIyLDE0NTMwMDkwLDU1MzYyNzEwOV19
 -->
