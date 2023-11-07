@@ -169,16 +169,13 @@ thermal expansion factor needs to be applied.
 The general orifice flow equation, given in many texts and readily
 available on Wikipedia, is outlined below.
 
-Orifice Flow Equation
 $$q_m =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{2 g_c \Delta p * \rho_f}$$
 
 
-Next, we will put this equation in terms of volumetric flow, which is
-more applicable to refining. The $q_m$ must be divided by the flowing
-fluid gravity $\rho_1$. We also multiply by $\frac{\rho_{f}}{\rho_{base}}$ to get $q_v$ at standard conditions.
+Next, we will put this equation in terms of volumetric flow, which is more applicable to refining. The mass flow rate $q_m$ must be divided by the flowing  fluid gravity $\rho_f$. We also multiply by $\frac{\rho_{f}}{\rho_{base}}$ to get $q_v$ at standard conditions.
 
 Together, this yields the orifice flow equation in volume terms.
-$$q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{1}}}*\frac{\rho_{1}}{\rho_{base}}$$
+$$q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{f}}}*\frac{\rho_{f}}{\rho_{base}}$$
 
 ### Discharge and Expansiblity Coefficients
 
@@ -213,6 +210,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMTQ1MzAwOTAsNTUzNjI3MTA5XX0=
-
+cnXG4iLCJoaXN0b3J5IjpbLTgyMTM2NDgyMiwxNDUzMDA5MCw1
+NTM2MjcxMDldfQ==
 -->
