@@ -10,11 +10,12 @@ OR
 Generally, the subject matter of this document will flow in reverse, with practical and usable results toward the beginning, and theory, arguments and conditions toward the end.
 
 ## Reference Conditions
+Variable subscripts denote their reference conditions. 
 
-Base conditions are standard conditions. Typically $T_{base}=60 \degree F$.
-	$$q_{v, base} = q_{v, standard}$$
+Base conditions are standard conditions. Typically $T_{b}=60 \degree F$.
+	$$q_{v, b} = q_{v, s}$$
 Similarly, flowing conditions are actual conditions, or stream conditions. 
-	$$\rho_{flowing} = \rho_{actual}$$
+	$$\rho_{f} = \rho_{a}$$
 
 ## Table of Symbols
 $q_m$ is mass flow across the orifice
@@ -36,7 +37,7 @@ $\epsilon$ is the expansibility factor
 
 $\rho_1$ is upstream flowing fluid density
 
-$T_b$ is base temperature, usually 60F, or more specifically 60.0068749 /degree F
+$T_b$ is base temperature, usually 60F, or more 60.0068749 $\degree$F
 for API 2540
 :::
 
@@ -224,6 +225,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMTk5NDQwMDg4Nyw1NTM2MjcxMDld
-fQ==
+cnXG4iLCJoaXN0b3J5IjpbLTE3MjI5NjIyMzMsNTUzNjI3MTA5
+XX0=
 -->
