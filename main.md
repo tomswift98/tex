@@ -1,25 +1,11 @@
----
-author:
-- |
-  Bennett\
-  Illinois Refining Division\
-  Winter 2023
-bibliography:
-- References.bib
-title: |
-  []{.smallcaps}\
 
-  ------------------------------------------------------------------------
-
-  \
-  **ELEMENTARY ORIFICE FLOW MEASUREMENT**
-
-  ------------------------------------------------------------------------
-
+# **ELEMENTARY ORIFICE FLOW MEASUREMENT**
   \
   a broad generalization of ISO 5167, API 2540\...\
   \...with applications to petroleum refining
----
+\
+*L. Bennett*
+Winter 2023
 
 ## Forward
 
@@ -77,22 +63,21 @@ meters are sized at maximum flow, a working range of approximately 4:1
 flow turndown from calibration conditions is generally acceptable and is
 accurate with appropriate meter correction.
 
-::: definition
 The Meter Correction Factor, $MCF$, is the ratio of the corrected flow
 at standard conditions to the raw flow at standard conditions.
+
 $$MCF = \frac{q_{v, corr, base}}{q_{v, base}}$$
-:::
 
 The primary terms that change with operating conditions in the orifice
 equation are flowing and base fluid density ($\rho_1$ and $\rho_{base}$)
 and orifice diameter. Orifice diameter changes are due to thermal
 expansion of the metal.
 
-::: principle
 Generalized Equation for Orifice Meter Correction
 $$q_{v, corr, std} = q_{v, base} * MCF = \frac{q_{v, base}}{F_{\rho} * F_{E} * ...}$$
 
-::: description
+where,
+
 $F_{\rho}$ is a factor to correct for the difference in fluid density
 from calibration conditions to operating conditions
 
@@ -149,18 +134,15 @@ $$C_{TL} = \exp{\{-\alpha\Delta t [1+0.8\alpha((T_{f}-T_{b}) + 0.01374979547)]\}
 
 $$\alpha = \frac{K_0}{\rho^2} + \frac{K_1}{\rho} + K_2$$
 
-::: {#tab:my_label}
-                     Density Range ($kg/m^3$)                 $K_0$       $K_1$     $K_2$
-  ------------------ ---------------------------------------- ----------- --------- -------------
-  Crude Oil          610.6 $\leq   \rho_{b} \leq$ 1163.5      341.0957    0         0
-  Fuel Oils          838.3127 $\leq \rho_{b} \leq$ 1163.5     103.8720    0.2701    0
-  Jet Fuels          787.5195 $\leq \rho_{b} \leq$ 838.3127   330.3010    0         0
-  Transition Zone    770.352 $\leq \rho_{b} \leq$ 787.5195    1489.0670   0         -0.00186840
-  Gasolines          610.6 $\leq \rho_{b} \leq$ 770.352       192.4571    0.2438    0
-  Lubricating Oils   800.9 $\leq \rho_{b} \leq$ 1163.5        0           0.34878   0
+|                  	| Density Range                             	| $K_0$     	| $K_1$   	| $K_2$       	|
+|------------------	|-------------------------------------------	|-----------	|---------	|-------------	|
+| Crude Oil        	| 610.6 $\leq   \rho_{base} \leq$ 1163.5    	| 341.0957  	| 0       	| 0           	|
+| Fuel Oils        	| 838.3127 $\leq \rho_{base} \leq$ 1163.5   	| 103.8720  	| 0.2701  	| 0           	|
+| Jet Fuels        	| 787.5195 $\leq \rho_{base} \leq$ 838.3127 	| 330.3010  	| 0       	| 0           	|
+| Transition Zone  	| 770.352 $\leq \rho_{base} \leq$ 787.5195  	| 1489.0670 	| 0       	| -0.00186840 	|
+| Gasolines        	| 610.6 $\leq \rho_{base} \leq$ 770.352     	| 192.4571  	| 0.2438  	| 0           	|
+| Lubricating Oils 	| 800.9 $\leq \rho_{base} \leq$ 1163.5      	| 0         	| 0.34878 	| 0           	|
 
-  : This is a caption.
-:::
 
 $C_{PL}$ is a pressure correction factor, which is typically very
 near 1.
@@ -248,3 +230,9 @@ This is a principle.
 # Citations
 
 This is a citation[@Eg].
+<!--stackedit_data:
+eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
+lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
+bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
+cnXG4iLCJoaXN0b3J5IjpbNTUzNjI3MTA5XX0=
+-->
