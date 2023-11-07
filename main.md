@@ -13,20 +13,19 @@ Generally, the subject matter of this document will flow in reverse, with practi
 
 ## Table of Symbols
 
-Note: Base conditions are standard conditions. 
+Note: Base conditions are standard conditions. Typically $T_{base}=60 \degree F$.
 	$$q_{v, base} = q_{v, standard}$$
 Similarly, flowing conditions are actual conditions. 
 	$$\rho_{flowing} = \rho_{actual}$$
 
-::: description
+
 $q_m$ is mass flow across the orifice
 
 $C_d$ is the discharge coefficient, a function of meter geometry and Reynold's number
 
 $d$ is the internal orifice diameter under operating conditions
 
-$\beta$ is the inner diameter ratio of the orifice to the pipe,
-$\beta = \frac{d}{D_{pipe}}$
+$\beta$ is the inner diameter ratio of the orifice to the pipe, $\beta = \frac{d}{D_{pipe}}$
 
 $\Delta P$ is the difference between upstream pressure $p_1$ and
 downstream pressure $p_2$
@@ -36,11 +35,7 @@ $\epsilon$ is the expansibility factor
 -   1 for non-compressible liquids
 
 -   a function of $\beta$, $\Delta p$, and the isentropic exponent
-    $\kappa$ for gasses
-
-    Note:
-
-    :   $\kappa = \frac{C_p}{C_v}$ for ideal gasses
+    $\kappa$ for gasses.   $\kappa = \frac{C_p}{C_v}$ for ideal gasses
 
 $\rho_1$ is upstream flowing fluid density
 
@@ -232,6 +227,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbMTExMDkyMjAwMyw1NTM2MjcxMDld
-fQ==
+cnXG4iLCJoaXN0b3J5IjpbLTE1NDE1MTMyNjcsNTUzNjI3MTA5
+XX0=
 -->
