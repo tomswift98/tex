@@ -17,7 +17,7 @@ Variable subscripts denote their reference conditions.
 - *f* = flowing, or actual process conditions. 
 	- These are the conditions actually in the pipe. 
 - *c* = calibration conditions, a special case. 
-	- These are the conditions, flowing or base, that appear on an orifice data sheet, that reference the condit
+	- These are the conditions, flowing or base, that appear on an orifice data sheet, that reference the process conditions used to size the orifice.
 
 ## Table of Symbols
 $q_m$ is mass flow across the orifice
@@ -28,7 +28,7 @@ $d$ is the internal orifice diameter under operating conditions
 
 $\beta$ is the inner diameter ratio of the orifice to the pipe, $\beta = \frac{d}{D_{pipe}}$
 
-$\Delta P$ is the difference between upstream pressure $p_1$ and
+$\Delta p$ is the difference between upstream pressure $p_1$ and
 downstream pressure $p_2$
 
 $\epsilon$ is the expansibility factor
@@ -39,7 +39,7 @@ $\epsilon$ is the expansibility factor
 
 $\rho_1$ is upstream flowing fluid density
 
-$T_b$ is base temperature, usually 60F, or more 60.0068749 $\degree$F
+$T_b$ is base temperature, usually 60 \degree F, or more 60.0068749 $\degree$F
 for API 2540
 :::
 
@@ -227,6 +227,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbLTM5NTg4OTU2LDU1MzYyNzEwOV19
+cnXG4iLCJoaXN0b3J5IjpbMzU5Mjk5MzY1LDU1MzYyNzEwOV19
 
 -->
