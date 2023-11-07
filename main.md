@@ -169,24 +169,18 @@ thermal expansion factor needs to be applied.
 The general orifice flow equation, given in many texts and readily
 available on Wikipedia, is outlined below.
 
-::: principle
 Orifice Flow Equation
-$$q_m =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{2 g_c \Delta p * \rho_1}$$
-:::
+$$q_m =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{2 g_c \Delta p * \rho_f}$$
+
 
 Next, we will put this equation in terms of volumetric flow, which is
 more applicable to refining, the $q_m$ must be divided by the flowing
-fluid gravity $\rho_1$. We also multiply by
-$\frac{\rho_{1}}{\rho_{base}}$ to get $q_v$ at standard conditions.
+fluid gravity $\rho_1$. We also multiply by $\frac{\rho_{1}}{\rho_{base}}$ to get $q_v$ at standard conditions.
 
 $$q_{v,std} = \frac{q_m}{\rho_1}$$
 
 Together, this yields the orifice flow equation in volume terms.
-
-::: proposition
-Orifice Flow Equation, volume flow at standard conditions
 $$q_{v, std} =  \frac{C_d}{\sqrt{1-\beta^4}}\epsilon\frac{\pi}{4}d^2 \sqrt{\frac{2 g_c \Delta p}{\rho_{1}}}*\frac{\rho_{1}}{\rho_{base}}$$
-:::
 
 ### Discharge and Expansiblity Coefficients
 
@@ -202,13 +196,9 @@ simplify flow correction. See figure 1 below.
 ![Error at 25% of max instrument range is less than 0.25% deviation from
 true discharge coefficient.](img/figure1.png)
 
-::: proposition
-This is a proposition.
-:::
-
-::: principle
-This is a principle.
-:::
+#### Expansibility coefficient
+![Error at 25% of max instrument range is less than 0.25% deviation from
+true expansibility coefficient.](img/figure2.png)
 
 # Useful Geometry
 
@@ -225,6 +215,6 @@ This is a citation[@Eg].
 eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEVMRU1FTlRBUlkgT1JJRk
 lDRSBGTE9XIE1FQVNVUkVNRU5UXG5hdXRob3I6IExpYW0gQmVu
 bmV0dFxuc3RhdHVzOiBkcmFmdFxuZGF0ZTogJzIwMjMtMTEtMD
-cnXG4iLCJoaXN0b3J5IjpbNzM5NjY3MDYxLDU1MzYyNzEwOV19
-
+cnXG4iLCJoaXN0b3J5IjpbLTE3MDEzNjkwNjcsNTUzNjI3MTA5
+XX0=
 -->
